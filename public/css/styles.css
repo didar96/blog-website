@@ -1,0 +1,37 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.body {
+    margin-top: 20px;
+    min-height: 580px;
+}
+
+.item {
+    padding-left: 20px;
+}
+
+.grey {
+    color: grey;
+}
+
+.footer-padding {
+	padding-bottom: 0px;
+}
+
+.footer {
+	position: relative;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #283331;
+}
+
+.footer p {
+    margin-top: 25px;
+    padding-top: 10px;
+	font-size: 12px;
+    color: #fff;
+}

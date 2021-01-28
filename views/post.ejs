@@ -1,0 +1,8 @@
+<%- include("partials/header") -%>
+    <h2> <b><%= mainPost.title %></b> </h2>
+    <p class="grey"><%= mainPost.author %> | <%= mainPost.date %></p>
+    <p> <%= mainPost.content %> </p>
+    <form action="/delete/<%= mainPost._id %>", method="POST">
+        <button class="btn btn-danger" type="submit" name="button">Delete post</button>
+    </form>
+<%- include("partials/footer") -%>
